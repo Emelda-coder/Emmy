@@ -7,14 +7,13 @@
   display: flex;
   margin-top: 100px;
   margin-left: 150px;
+  /* border: 1px solid;  */
 }
 .middle {
   width: 410px;
   border-radius: 5px;
   height: 55vh;
   max-width: 410px;
-}
-.middle {
   padding: 20px;
   align-items: center;
   /* display: flex; */
@@ -34,6 +33,9 @@
   margin-bottom: 15px;
   cursor: pointer;
 }
+.btn1:hover{
+  background-color: #094594;
+}
 .btn2 {
   background-color: #28ad0d;
   border-radius: 8px;
@@ -45,9 +47,10 @@
   font-size: medium;
   margin-left: 105px;
   margin-bottom: 15px;
+  cursor: pointer;
 }
-.btn2 :hover{
-  background-color: #42b72a;
+.btn2:hover{
+  background-color: #219906;
 }
 input{
   padding: 20px 16px;
@@ -63,7 +66,7 @@ input:focus{
 }
   
 body{
-  background-color:  #e9eaf3;
+  background-color: rgb(252, 252, 252);
 }
 .forg{
   text-decoration: none;
@@ -79,6 +82,7 @@ a:hover{
   color: black;
   font-family: Montserrat, Helvetica, sans-serif;
   transition: ease 0.3s;
+  text-align: center;
 }
 .last a:hover{
   text-decoration: underline;
@@ -86,6 +90,8 @@ a:hover{
 .last{
   font-size: 18px;
   font-family: Montserrat, Helvetica, sans-serif;
+  text-align: center;
+  /* align-items: center; */
 } 
 h1{
   font-size: 50px;
